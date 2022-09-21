@@ -30,9 +30,9 @@ export const config = {
     // 金山每日一句
     CIBA: true,
     // 每日一言
-    oneTalk: false,
+    oneTalk: true,
     // 土味情话(彩虹屁)
-    earthyLoveWords: true,
+    earthyLoveWords: false,
     // 朋友圈文案
     momentCopyrighting: true,
     // 毒鸡汤
@@ -107,7 +107,7 @@ export const config = {
       customizedDateList: []
     },
     {
-      name: "老婆2",
+      name: "尧尧2",
       id: "",
       useTemplateId: "",
       province: "",
@@ -119,7 +119,7 @@ export const config = {
       customizedDateList: []
     },
     {
-      name: "老婆3",
+      name: "尧尧3",
       id: "",
       useTemplateId: "",
       province: "",
@@ -147,7 +147,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oTJ-R6u9eagpOONe4U8YkcfK_5iI",
+      id: "",
     },
     // 你可以不断按格式往下增加
     // ...
@@ -183,13 +183,13 @@ export const config = {
    * 删除isShowAge属性，也会不展示岁数
    * --- 是否展示周岁信息结束 ---
    */
-  FESTIVALS: [
+ // FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09", isShowAge: true},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+   // {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09", isShowAge: true},
+   // {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31", isShowAge: true},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+  //  {"type": "生日", "name": "李四", "year": "1996", "date": "09-31", isShowAge: true},
+   // {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -209,11 +209,11 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2022-09-08"},
+   // {"keyword": "love_day", date: "2022-09-08"},
     // 结婚纪念日
-    {"keyword": "marry_day", date: "2022-09-09"},
+  //  {"keyword": "marry_day", date: "2022-09-09"},
     // 退伍日
-    {"keyword": "ex_day", date: "2022-09-10"},
+  //  {"keyword": "ex_day", date: "2022-09-10"},
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -226,14 +226,14 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+  //  {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
     // 这样配置的话，就会每次随机选一句话发送
-    {"keyword": "lover_prattle", contents: [
-      "因为太喜欢你，所以看谁都像是情敌。",
-      "申请成为你爱里的永久居民。",
-      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-      "遇见你，就好像捡到了100斤的运气",
-    ]},
+  //  {"keyword": "lover_prattle", contents: [
+   //   "因为太喜欢你，所以看谁都像是情敌。",
+   //   "申请成为你爱里的永久居民。",
+   //   "你很傻，你很笨，可我还是很羡慕你，因为你有我",
+   //   "遇见你，就好像捡到了100斤的运气",
+  //  ]},
     // 你可以不断按格式往下增加
     // ...
   ],
